@@ -1,1 +1,1 @@
-# ZMK config for Corne Keyboard
+# ZMK config for CORNE Keyboard
