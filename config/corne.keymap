@@ -76,7 +76,7 @@
 &trans  &trans         &trans                  &trans                  &trans               &trans                &trans                    &trans           &trans            &trans            &trans    &trans
 &trans  &kp NUMBER_1   &hrm LEFT_GUI NUMBER_2  &hrm LEFT_ALT NUMBER_3  &hrm LCTRL NUMBER_4  &hrm LEFT_SHIFT N5    &hrm LEFT_SHIFT NUMBER_6  &hrm LCTRL N7    &hrm LEFT_ALT N8  &hrm LEFT_GUI N9  &kp N0    &trans
 &trans  &kp BACKSLASH  &kp PLUS                &kp MINUS               &kp LEFT_BRACE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET         &kp RIGHT_BRACE  &kp EQUAL         &kp UNDERSCORE    &kp PIPE  &trans
-                                               &trans                  &trans               &kp SPACE             &trans                    &trans           &kp BACKSPACE
+                                               &trans                  &trans               &trans                &trans                    &trans           &trans
             >;
         };
 
@@ -88,10 +88,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1  &kp F2  &kp F3              &kp F4                  &kp F5    &kp F6       &kp F7    &kp F8    &kp F9                  &kp F10                    &kp F11  &kp F12
-&trans  &trans  &hrm LEFT_GUI LEFT  &hrm LEFT_ALT UP_ARROW  &kp DOWN  &kp RIGHT    &kp LEFT  &kp DOWN  &hrm LEFT_ALT UP_ARROW  &hrm LEFT_GUI RIGHT_ARROW  &trans   &trans
-&trans  &trans  &trans              &trans                  &trans    &trans       &trans    &trans    &trans                  &trans                     &trans   &trans
-                                    &trans                  &trans    &trans       &trans    &trans    &trans
+&kp F1  &kp F2  &kp F3              &kp F4              &kp F5               &kp F6                   &kp F7                &kp F8           &kp F9                  &kp F10                    &kp F11  &kp F12
+&trans  &trans  &hrm LEFT_GUI LEFT  &hrm LEFT_ALT DOWN  &hrm LCTRL UP_ARROW  &hrm LEFT_SHIFT RIGHT    &hrm LEFT_SHIFT LEFT  &hrm LCTRL DOWN  &hrm LEFT_ALT UP_ARROW  &hrm LEFT_GUI RIGHT_ARROW  &trans   &trans
+&trans  &trans  &trans              &trans              &trans               &trans                   &trans                &trans           &trans                  &trans                     &trans   &trans
+                                    &trans              &trans               &trans                   &trans                &trans           &trans
             >;
         };
     };
